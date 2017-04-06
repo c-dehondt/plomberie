@@ -84,61 +84,67 @@ footer{
 
 footer a{
   text-decoration:none;
-  width:10%;
+  width:90%;
   display: inline-block;
   text-align: center;
-  font-size:5px;
+  font-size:90%;
   margin-top:1%;
-  margin-left:6%;
-  margin-right:6%;
+  margin-left:1%;
+  margin-right:1%;
 
 }
 footer span{
   font-size:100%;
 }
 /************************************************************contact*******************************************/
-/*
+
 .contact{
   background-image: url(images/fond-contact.jpg);
-  margin-top:2%;
-  margin-left:5%;
-  width: 90%;
+  width:90%;
 }
 
-.formulaire{
-  width:60%;
+.formulaire {
+  position: relative;
+  width:90%;
   text-align: left;
 }
 
-.nous-contacter{
-  position: absolute;
-  left:50%;
-  width:30%;
+.formulaire input textarea{
+  width:95%;
 }
 
+.nous-contacter{
+  border: 1px solid;
+  width:60%;
+}
+
+.urgence{
+  border: 1px solid;
+  width: 70%;
+  margin-left:25%;
+  text-align: center;
+  background-color: blue;
+  border-radius:10px;
+
+}
 .coordonnée{
-  display: inline-block;
-  width:50%;
+  top:10%;
+  display:block;
+  width:90%;
   box-shadow:4px 4px 6px #d4d4d4;
-}*/
+}
 
 /*****************************************navigation,************************************************/
-/*.maps{
-  background-color: yellow;
-  position:absolute;
-  top:95%;
-  right:7%;
-  index: 0.5;
-  width: 30%;
-  height: 50%;
-  margin-left:65%;
+.maps{
+  background-color:#d4d4d4;
+  width:95%;
 }
 
 .plan{
   width:90%;
   height:70%;
   margin-left:5%;
-}*/
+}
 
 /*************************************************tableau tarifs********************************************************/
 /*th{
