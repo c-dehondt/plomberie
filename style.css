@@ -1,26 +1,23 @@
+/***********************************************mode telephone*************************************************/
+@media (max-width:1280px)
+{
 /*************************************en tête du site************************************************/
 header{
   border: 5px solid black;
+  position: relative;
   width: 100%;
   text-align: center;
 }
 
-.info{
-  margin-left:80%;
-}
-
-.logo{
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 20%;
+h1{
+  font-size:250%;
 }
 
 .depannage{
   position: absolute;
-  top: 5%;
+  top: 25%;
   right:5%;
-  width:10%;
+  width:20%;
 }
 
 nav{
@@ -31,14 +28,14 @@ nav{
 }
 
 li{
-  display:inline-block;
+  display: block;
+  width:80%;
   border:1px solid black;
   box-shadow: 2px 2px 2px;
   border-radius:3px 3px 3px;
   padding: 1%;
   margin:0% 5% 0% 0%;
   color: white;
-  width:10%;
 }
 
 li:hover{
@@ -58,10 +55,9 @@ figure img{
   margin:auto;
 }
 .pub-préstation{
-  vertical-align: text-top;
-  display:inline-block;
-  margin-left:2%;
-  width:27%;
+  display:block;
+  margin:auto;
+  width:80%;
 }
 
 /************************************************tuto, video du site*****************************************************/
@@ -72,14 +68,17 @@ section{
 }
 
 video{
+  display: none;
   width:30%;
   margin:1% auto;
 }
 
 footer{
   background-color:yellow;
-  width:100%;
   display: block;
+  text-align: center;
+  margin: auto;
+  width:100%;
 
 }
 
@@ -95,34 +94,65 @@ footer a{
 
 }
 footer span{
-  font-size:300%;
+  font-size:100%;
 }
-
+/************************************************************contact*******************************************/
+/*
 .contact{
-  background-image: url(images/contact.jpg);
+  background-image: url(images/fond-contact.jpg);
   margin-top:2%;
   margin-left:5%;
   width: 90%;
 }
 
-.nous-contacter{
-  border: 1px solid red;
-  display: inline-block;
+.formulaire{
   width:60%;
+  text-align: left;
+}
+
+.nous-contacter{
+  position: absolute;
+  left:50%;
+  width:30%;
 }
 
 .coordonnée{
   display: inline-block;
+  width:50%;
   box-shadow:4px 4px 6px #d4d4d4;
-  margin-left:50%;
+}*/
+
+/*****************************************navigation,************************************************/
+/*.maps{
+  background-color: yellow;
+  position:absolute;
+  top:95%;
+  right:7%;
+  index: 0.5;
+  width: 30%;
+  height: 50%;
+  margin-left:65%;
 }
 
-/*****************************************navigation, presentation du site...*************************************************/
-.qui-sommes-nous{
-  border:1% solid #d4d4d4;
-  border-radius: 2px 2px 2px;
-  box-shadow: 2px 2px 6px;
-  text-align: center;
-  width:80%;
-  margin-left:10%;
+.plan{
+  width:90%;
+  height:70%;
+  margin-left:5%;
+}*/
+
+/*************************************************tableau tarifs********************************************************/
+/*th{
+  border:2px solid red;
 }
+
+td{
+  border:2px solid blue;
+}
+
+td:hover{
+  background-color:yellow;
+  color:blue;
+}*/
+}
+
+/****************************************************mode telephone******************************************************/
