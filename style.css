@@ -1,9 +1,7 @@
 /***********************************************mode telephone*************************************************/
-@media (max-width:1280px)
-{
+
 /*************************************en tête du site************************************************/
 header{
-  border: 5px solid black;
   position: relative;
   width: 100%;
   text-align: center;
@@ -54,7 +52,8 @@ figure img{
   padding-left:5%;
   margin:auto;
 }
-.pub-préstation{
+
+.pub-prestation{
   display:block;
   margin:auto;
   width:80%;
@@ -73,6 +72,13 @@ video{
   margin:1% auto;
 }
 
+.lien-video a{
+  background-color: green;
+  border: 2px solid;
+  padding:2% 5% 2% 5% ;
+}
+
+/*******************************************pied de page****************************************************/
 footer{
   background-color:yellow;
   display: block;
@@ -109,12 +115,7 @@ footer span{
   text-align: left;
 }
 
-.formulaire input textarea{
-  width:95%;
-}
-
 .nous-contacter{
-  border: 1px solid;
   width:60%;
 }
 
@@ -122,18 +123,18 @@ footer span{
   border: 1px solid;
   width: 70%;
   margin-left:25%;
+  padding: 5% 0% 5% 0%;
   text-align: center;
   background-color: blue;
   border-radius:10px;
-
 }
+
 .coordonnée{
   top:10%;
   display:block;
   width:90%;
   box-shadow:4px 4px 6px #d4d4d4;
 }
-
 /*****************************************navigation,************************************************/
 .maps{
   background-color:#d4d4d4;
@@ -145,24 +146,97 @@ footer span{
   height:70%;
   margin-left:5%;
 }
-
 /*************************************************tableau tarifs********************************************************/
-main{
-  overflow-x: scroll;
+table{
+  border-collapse:collapse;
+  font-size:10px;
 }
 
 th{
-  border:2px solid red;
+  background-color:#d4d4d4;
+  border:20px;
 }
 
 td{
-  border:2px solid blue;
+  border:2px solid #d4d4d4;
 }
 
-td:hover{
-  background-color:yellow;
-  color:blue;
-}
+/**************************************************mode tablette**********************************************************/
+@media screen and (min-width:768px){
+
+li{
+ display: inline-block;
+ width:15%;
 }
 
-/****************************************************mode telephone******************************************************/
+.depannage{
+ top:7%;
+ width:15%;
+}
+
+figure img{
+  width:90%;
+  padding-left:5%;
+  margin:auto;
+}
+
+.pub-prestation{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin:auto 1%;
+  width:30%;
+}
+
+table{
+  font-size:15px;
+  }
+}
+/***********************************************************mode pc********************************************/
+@media screen and (min-width:1280px){
+
+.depannage{
+  top:20%;
+  right:1%;
+}
+
+video{
+  display: inline-block;
+  width:30%;
+  margin:1% auto;
+}
+
+.lien-video{
+  display: none;
+}
+
+.coordonnée{
+  text-align: left;
+}
+
+.nous-contacter{
+  position: absolute;
+  top:70%;
+  right: 10%;
+  width:30%;
+}
+
+.maps{
+  background-color:#d4d4d4;
+  position: absolute;
+  top:120%;
+  right:10%;
+  width:40%;
+  height: 50%;
+}
+
+table{
+  font-size:20px;
+}
+
+footer a{
+  display:inline-block;
+  width:20%;
+}
+
+}
